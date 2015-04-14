@@ -21,6 +21,7 @@ import org.joda.time.DateTimeZone;
 import org.joda.time.Duration;
 
 /**
+ * Container that holds requests made during a session.
  * 
  * @author Timothy Storm
  */
