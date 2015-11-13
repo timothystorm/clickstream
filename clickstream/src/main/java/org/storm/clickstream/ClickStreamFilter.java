@@ -29,7 +29,6 @@ public class ClickStreamFilter implements Filter {
         try {
             if (!(request instanceof HttpServletRequest)) return;
 
-            System.out.println("handling request");
             final HttpServletRequest req = (HttpServletRequest) request;
             if (process(req)) {
                 if (req.getAttribute(CS_FILTER_KEY) == null) {

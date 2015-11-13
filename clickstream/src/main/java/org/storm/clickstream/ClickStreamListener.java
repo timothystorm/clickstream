@@ -65,7 +65,6 @@ public class ClickStreamListener implements ServletContextListener, HttpSessionL
 
     @Override
     public void sessionCreated(HttpSessionEvent event) {
-        System.out.println("creating session");
         try {
             final HttpSession session = event.getSession();
             if (session == null /* pathological case */) return;
