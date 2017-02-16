@@ -9,4 +9,5 @@ class CSConstants {
   static final String CS_CONFIG_NAME         = "clickstream.xml";
   static final String CS_DEFAULT_CONFIG_NAME = "clickstream-default.xml";
   static final String NEW_CONST_01           = "newconst01";
+  static final String NEW_CONST_02           = "newconst02";
 }
